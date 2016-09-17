@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh -T ubuntu@172.31.59.56 <<EOF
+ssh ubuntu@172.31.59.56 <<EOF
   cd ~/jenkins-cicd-app
   git pull
   npm install --production

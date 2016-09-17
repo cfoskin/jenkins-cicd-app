@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh ubuntu@172.31.59.56 <<EOF
+ssh -t ubuntu@172.31.59.56 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production

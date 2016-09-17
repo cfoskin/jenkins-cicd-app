@@ -1,7 +1,7 @@
 #!/bin/sh
  
-ssh -t ubuntu@172.31.59.56 <<EOF
-  cd ~/hello-jenkins
+ssh ubuntu@172.31.59.56 <<EOF
+  cd ~/jenkins-cicd-app
   git pull
   npm install --production
   forever restartall

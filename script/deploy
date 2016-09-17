@@ -1,5 +1,4 @@
 #!/bin/sh
- 
 ssh ubuntu@172.31.59.56 <<EOF
   cd ~/jenkins-cicd-app
   git pull

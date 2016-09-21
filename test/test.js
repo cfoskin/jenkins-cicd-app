@@ -2,7 +2,7 @@ var request = require('supertest');
 var app = require('../app.js');
  
 describe('GET /', function() {
-	  	  this.timeout(500);
+	  	  this.timeout(500986986);
 
   it('should respond with: Welcome to CICD test node app!', function(done) {
 

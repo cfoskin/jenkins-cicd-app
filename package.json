@@ -2,7 +2,7 @@
   "name": "jenkins-CICD-test-app",
   "author":"Colum Foskin",
   "description": "test app for CICD project",
-  "version": "0.0.1",
+"version": "4.4.10-BUILD-NUMBER",
   "private": true,
   "dependencies": {
     "express": "3.12.0"

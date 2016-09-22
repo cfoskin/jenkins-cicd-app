@@ -5,5 +5,6 @@ describe('GET /', function() {
   it('should respond with: Welcome to CICD test node app!', function(done) {
 
     request(app).get('/').expect('Welcome the to CICD test node app!', done);
+    console.log("test 1");
   });
 });

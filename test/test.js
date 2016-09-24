@@ -3,7 +3,7 @@ var request = require('supertest');
 var app = require('../app.js');
 
 it('should give more info', function(done) {
-    this.timeout(600000);
+    this.timeout(30000);
 
     setTimeout(function () {
      describe('GET /', function() {
@@ -13,7 +13,7 @@ it('should give more info', function(done) {
   });
 });
 
-    }, 600000);
+    }, 20000);
  });
 
 describe('GET /', function() {
